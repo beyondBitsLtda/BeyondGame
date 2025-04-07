@@ -1,4 +1,4 @@
-# Projeto MG Game!
+# Beyond Game!
 
 ## Introdução:
 
