@@ -1,3 +1,8 @@
+<p align="center">
+ <img width="1000" src="img/logo_beyond.jpg" alt="icon"/>
+</p>
+
+
 # Beyond Game!
 
 ## Introdução:
