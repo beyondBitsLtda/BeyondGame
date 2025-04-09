@@ -256,3 +256,34 @@ h2{
     font-size: 16px;
 }
 
+/* VIDEO DE FUNDO */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; /* menos transparente */
+    filter: blur(10px); /* mais profundidade */
+}
+
+.imagem::before {
+    content: attr(data-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    font-size: 12.5pt;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background-color: var(--cor3);
+    color: var(--cor2);
+}

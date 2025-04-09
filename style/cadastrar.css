@@ -19,8 +19,8 @@ body{
 }
 
 main{ 
-    padding-top: 1000px; /* ou mais, se necessário */
-    padding-bottom: 1000px; /* espaço no final da página */
+    padding-top: 2000px; /* ou mais, se necessário */
+    padding-bottom: 2000px; /* espaço no final da página */
     font-family: "Poppins", sans-serif;
     color: var(--cor2);
     height: 100vh;
@@ -77,6 +77,15 @@ main{
 }
 
 .NameGame{
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.TrueOrFalse{
     width: 30%;
     height: 30px;
     padding: 10px;
