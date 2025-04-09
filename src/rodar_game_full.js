@@ -1,3 +1,244 @@
+// Declarando a variável global no escopo mais alto
+let valorGlobalP1 = "";
+let valorGlobalP2 = "";
+let valorGlobalP3 = "";
+let valorGlobalP4 = "";
+let valorGlobalP5 = "";
+let valorGlobalP6 = "";
+let valorGlobalP7 = "";
+let valorGlobalP8 = "";
+let valorGlobalP9 = "";
+let valorGlobalP10 = "";
+let valorGlobalP11 = "";
+let valorGlobalP12 = "";
+let valorGlobalP13 = "";
+let valorGlobalP14 = "";
+let valorGlobalP15 = "";
+let valorGlobalP16 = "";
+let valorGlobalP17 = "";
+let valorGlobalP18 = "";
+let valorGlobalP19 = "";
+let valorGlobalP20 = "";
+let opcaoGlobal01 = "";
+let opcaoGlobal02 = "";
+let opcaoGlobal03 = "";
+let opcaoGlobal04 = "";
+let opcaoGlobal05 = "";
+let opcaoGlobal06 = "";
+let opcaoGlobal07 = "";
+let opcaoGlobal08 = "";
+let opcaoGlobal09 = "";
+let opcaoGlobal10 = "";
+let opcaoGlobal11 = "";
+let opcaoGlobal12 = "";
+let opcaoGlobal13 = "";
+let opcaoGlobal14 = "";
+let opcaoGlobal15 = "";
+let opcaoGlobal16 = "";
+let opcaoGlobal17 = "";
+let opcaoGlobal18 = "";
+let opcaoGlobal19 = "";
+let opcaoGlobal20 = "";
+
+
+function carregarOpcoesGlobais() {
+  opcaoGlobal01 = localStorage.getItem("vof01") || "Opção padrão 01";
+  console.log("opcao01 carregada:", opcaoGlobal01);
+
+
+  opcaoGlobal02 = localStorage.getItem("vof02") || "Opção padrão 02";
+  console.log("opcao02 carregada:", opcaoGlobal02);
+
+  opcaoGlobal03 = localStorage.getItem("vof03") || "Opção padrão 03";
+  console.log("opcao03 carregada:", opcaoGlobal03);
+
+  opcaoGlobal04 = localStorage.getItem("vof04") || "Opção padrão 04";
+  console.log("opcao04 carregada:", opcaoGlobal04);
+
+  opcaoGlobal05 = localStorage.getItem("vof05") || "Opção padrão 05";
+  console.log("opcao05 carregada:", opcaoGlobal05);
+
+  opcaoGlobal06 = localStorage.getItem("vof06") || "Opção padrão 06";
+  console.log("opcao06 carregada:", opcaoGlobal06);
+
+  opcaoGlobal07 = localStorage.getItem("vof07") || "Opção padrão 07";
+  console.log("opcao07 carregada:", opcaoGlobal07);
+
+  opcaoGlobal08 = localStorage.getItem("vof08") || "Opção padrão 08";
+  console.log("opcao08 carregada:", opcaoGlobal08);
+
+  opcaoGlobal09 = localStorage.getItem("vof09") || "Opção padrão 09";
+  console.log("opcao09 carregada:", opcaoGlobal09);
+
+  opcaoGlobal10 = localStorage.getItem("vof10") || "Opção padrão 10";
+  console.log("opcao10 carregada:", opcaoGlobal10);
+
+  opcaoGlobal11 = localStorage.getItem("vof11") || "Opção padrão 11";
+  console.log("opcao11 carregada:", opcaoGlobal11);
+
+  opcaoGlobal12 = localStorage.getItem("vof12") || "Opção padrão 12";
+  console.log("opcao12 carregada:", opcaoGlobal12);
+
+  opcaoGlobal13 = localStorage.getItem("vof13") || "Opção padrão 13";
+  console.log("opcao13 carregada:", opcaoGlobal13);
+
+  opcaoGlobal14 = localStorage.getItem("vof14") || "Opção padrão 14";
+  console.log("opcao14 carregada:", opcaoGlobal14);
+
+  opcaoGlobal15 = localStorage.getItem("vof15") || "Opção padrão 15";
+  console.log("opcao15 carregada:", opcaoGlobal15);
+
+  opcaoGlobal16 = localStorage.getItem("vof16") || "Opção padrão 16";
+  console.log("opcao16 carregada:", opcaoGlobal16);
+
+  opcaoGlobal17 = localStorage.getItem("vof17") || "Opção padrão 17";
+  console.log("opcao17 carregada:", opcaoGlobal17);
+
+  opcaoGlobal18 = localStorage.getItem("vof18") || "Opção padrão 18";
+  console.log("opcao18 carregada:", opcaoGlobal18);
+
+  opcaoGlobal19 = localStorage.getItem("vof19") || "Opção padrão 19";
+  console.log("opcao19 carregada:", opcaoGlobal19);
+
+  opcaoGlobal20 = localStorage.getItem("vof20") || "Opção padrão 20";
+  console.log("opcao20 carregada:", opcaoGlobal20);
+
+}
+
+// Chamar imediatamente para carregar os valores
+carregarOpcoesGlobais();
+// Função para carregar o valor de p1 do localStorage
+
+function carregarValorP1() {
+    valorGlobalP1 = localStorage.getItem("p1") || "Pergunta padrão se p1 não existir";
+    console.log("Valor p1 carregado:", valorGlobalP1);
+}
+// Chamar imediatamente para carregar o valor
+carregarValorP1();
+
+// Funções para carregar os valores
+function carregarValorP1() {
+  valorGlobalP1 = localStorage.getItem("p1") || "Pergunta padrão se p1 não existir";
+  console.log("Valor p1 carregado:", valorGlobalP1);
+}
+carregarValorP1();
+
+function carregarValorP2() {
+  valorGlobalP2 = localStorage.getItem("p2") || "Pergunta padrão se p2 não existir";
+  console.log("Valor p2 carregado:", valorGlobalP2);
+}
+carregarValorP2();
+
+function carregarValorP3() {
+  valorGlobalP3 = localStorage.getItem("p3") || "Pergunta padrão se p3 não existir";
+  console.log("Valor p3 carregado:", valorGlobalP3);
+}
+carregarValorP3();
+
+function carregarValorP4() {
+  valorGlobalP4 = localStorage.getItem("p4") || "Pergunta padrão se p4 não existir";
+  console.log("Valor p4 carregado:", valorGlobalP4);
+}
+carregarValorP4();
+
+function carregarValorP5() {
+  valorGlobalP5 = localStorage.getItem("p5") || "Pergunta padrão se p5 não existir";
+  console.log("Valor p5 carregado:", valorGlobalP5);
+}
+carregarValorP5();
+
+function carregarValorP6() {
+  valorGlobalP6 = localStorage.getItem("p6") || "Pergunta padrão se p6 não existir";
+  console.log("Valor p6 carregado:", valorGlobalP6);
+}
+carregarValorP6();
+
+function carregarValorP7() {
+  valorGlobalP7 = localStorage.getItem("p7") || "Pergunta padrão se p7 não existir";
+  console.log("Valor p7 carregado:", valorGlobalP7);
+}
+carregarValorP7();
+
+function carregarValorP8() {
+  valorGlobalP8 = localStorage.getItem("p8") || "Pergunta padrão se p8 não existir";
+  console.log("Valor p8 carregado:", valorGlobalP8);
+}
+carregarValorP8();
+
+function carregarValorP9() {
+  valorGlobalP9 = localStorage.getItem("p9") || "Pergunta padrão se p9 não existir";
+  console.log("Valor p9 carregado:", valorGlobalP9);
+}
+carregarValorP9();
+
+function carregarValorP10() {
+  valorGlobalP10 = localStorage.getItem("p10") || "Pergunta padrão se p10 não existir";
+  console.log("Valor p10 carregado:", valorGlobalP10);
+}
+carregarValorP10();
+
+function carregarValorP11() {
+  valorGlobalP11 = localStorage.getItem("p11") || "Pergunta padrão se p11 não existir";
+  console.log("Valor p11 carregado:", valorGlobalP11);
+}
+carregarValorP11();
+
+function carregarValorP12() {
+  valorGlobalP12 = localStorage.getItem("p12") || "Pergunta padrão se p12 não existir";
+  console.log("Valor p12 carregado:", valorGlobalP12);
+}
+carregarValorP12();
+
+function carregarValorP13() {
+  valorGlobalP13 = localStorage.getItem("p13") || "Pergunta padrão se p13 não existir";
+  console.log("Valor p13 carregado:", valorGlobalP13);
+}
+carregarValorP13();
+
+function carregarValorP14() {
+  valorGlobalP14 = localStorage.getItem("p14") || "Pergunta padrão se p14 não existir";
+  console.log("Valor p14 carregado:", valorGlobalP14);
+}
+carregarValorP14();
+
+function carregarValorP15() {
+  valorGlobalP15 = localStorage.getItem("p15") || "Pergunta padrão se p15 não existir";
+  console.log("Valor p15 carregado:", valorGlobalP15);
+}
+carregarValorP15();
+
+function carregarValorP16() {
+  valorGlobalP16 = localStorage.getItem("p16") || "Pergunta padrão se p16 não existir";
+  console.log("Valor p16 carregado:", valorGlobalP16);
+}
+carregarValorP16();
+
+function carregarValorP17() {
+  valorGlobalP17 = localStorage.getItem("p17") || "Pergunta padrão se p17 não existir";
+  console.log("Valor p17 carregado:", valorGlobalP17);
+}
+carregarValorP17();
+
+function carregarValorP18() {
+  valorGlobalP18 = localStorage.getItem("p18") || "Pergunta padrão se p18 não existir";
+  console.log("Valor p18 carregado:", valorGlobalP18);
+}
+carregarValorP18();
+
+function carregarValorP19() {
+  valorGlobalP19 = localStorage.getItem("p19") || "Pergunta padrão se p19 não existir";
+  console.log("Valor p19 carregado:", valorGlobalP19);
+}
+carregarValorP19();
+
+function carregarValorP20() {
+  valorGlobalP20 = localStorage.getItem("p20") || "Pergunta padrão se p20 não existir";
+  console.log("Valor p20 carregado:", valorGlobalP20);
+}
+carregarValorP20();
+
+
+
 // Seleção de elementos da página
 const $botaoComecarGame = document.querySelector(".btn_Iniciargame");
 const $questionsContainer = document.querySelector(".questions-container");
@@ -141,15 +382,36 @@ let totalCorrect = 0;
 
 // Função para iniciar o jogo
 function startGame() {
+    // Recarregar o valor de p1 antes de começar o jogo
+    carregarValorP1();
+    
     $botaoComecarGame.classList.add("hide")
     $questionsContainer.classList.remove("hide")
     $registeredPlayers.classList.remove("hide");
+    
+    // Atualizamos as perguntas com o valor atual de p1
+    atualizarPrimeiraQuestao();
     
     displayNextQuestions();
     updateTurnOrder();
     updateScoreBoard();
 };
 console.log("teste2")
+
+// Função para atualizar a primeira questão com o valor de p1
+function atualizarPrimeiraQuestao() {
+    // Verificar se já temos o valor de p1, se não, tente carregar novamente
+    if (!valorGlobalP1) {
+        carregarValorP1();
+    }
+    
+    // Atualiza a primeira questão com o valor de p1
+    if (questions.length > 0) {
+        questions[0].question = valorGlobalP1;
+        console.log("Primeira questão atualizada com:", valorGlobalP1);
+    }
+}
+
 // Função para exibir a próxima pergunta
 function displayNextQuestions() {
     resetState();
@@ -219,49 +481,43 @@ function finishGame() {
     const totalQuestions = questions.length * 100;
     const performance = totalCorrect;
 
-    let winner = null;
+    let winners = null;
     let maxScore = 0;
 
-    for (const [player, score] of Object.entries($scores)) { 
-      if (score > maxScore) { 
-        maxScore = score; winner = player; 
-      };
-    };
-
-    /*Object Esboço
-        Jogo {
-          Jogador:
-            Nome
-            Ponto
-            Total de Perguntas Acertadas
-            Total de Pergunta Erradas
-
-        Ganhador
-          Nome
-          Max de Pontos
-          Acertadas x Erradas
-          Total de questão
-  
-    */
+    for (const [player, score] of Object.entries($scores)) {
+      if (score > maxScore) {
+        maxScore = score;
+        winners = [player]; // novo vencedor, zera a lista
+      } else if (score === maxScore) {
+        winners.push(player); // empate
+      }
+    }
+    
     const game = [
       {
         players: $players.map(player => ({
           name: player,
           points: $scores[player]
         })),
-        
-        winner: winner,
+        winners: winners, // array de vencedores
         maxScore: maxScore,
         totalQuestions: currentQuestionIndex,
+        empate: winners.length > 1 // booleano: true se houve empate
       }
-    ]
+    ];
     
-    game[0].players.forEach(player=> { //Nome e pontos 
-      console.log(`
-        Nome: ${player.name} | Pontos: ${player.points}
-      `)
+    // Exibir pontuação dos jogadores
+    game[0].players.forEach(player => {
+      console.log(`Nome: ${player.name} | Pontos: ${player.points}`);
     });
-    console.log(`Vencedor: ${game[0].winner} com o total de ${game[0].maxScore} pontos!`) //ganhador
+    
+    // Exibir resultado final
+    if (game[0].empate) {
+      console.log(`Houve um empate! Os vencedores com ${game[0].maxScore} pontos foram:`);
+      game[0].winners.forEach(name => console.log(`- ${name}`));
+    } else {
+      console.log(`Vencedor: ${game[0].winners[0]} com o total de ${game[0].maxScore} pontos!`);
+    }
 
     let message;
     if (performance >= 900) {
@@ -278,9 +534,8 @@ function finishGame() {
 
     $questionsContainer.innerHTML = 
     `
-        <p class="final-message">Você pontuou ${totalCorrect} de ${totalQuestions} pontos possíveis!</p>
-        <h3>Jogador Vencedor: ${winner} com ${maxScore} pontos! </h3>
-        <span>Obrigado por ter participado! </span>
+        <h3>Parabéns: ${winners} com ${maxScore} pontos! </h3>
+        <span>Obrigado por terem participado! </span>
 
         <button onclick=window.location.reload() class="button"> Jogar novamente </button>
     `;
@@ -289,143 +544,144 @@ function finishGame() {
 // Banco de perguntas e respostas
 const questions = [
   {
-    question: "A primeira linguagem de programação de alto nível foi o Fortran, desenvolvida nos anos 1950.",
+    question: valorGlobalP1,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal01.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal01.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O ciclo de vida de um projeto de software geralmente inclui as fases de planejamento, execução e encerramento.",
+    question: valorGlobalP2,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal02.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal02.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "A metodologia Agile é conhecida por ser rígida e não adaptável a mudanças durante o desenvolvimento de software.",
+    question: valorGlobalP3,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal03.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal03.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O teste de unidade é um tipo de teste de software onde unidades individuais de código são testadas isoladamente.",
+    question: valorGlobalP4,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal04.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal04.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O modelo em cascata é uma abordagem iterativa para o desenvolvimento de software.",
+    question: valorGlobalP5,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal05.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal05.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O Git é uma ferramenta de controle de versão distribuída criada por Linus Torvalds em 2005.",
+    question: valorGlobalP6,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal06.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal06.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O QA (Quality Assurance) envolve apenas a execução de testes automatizados em software.",
+    question: valorGlobalP7,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal07.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal07.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O Scrum é uma estrutura dentro da metodologia Agile que facilita a colaboração em projetos complexos.",
+    question: valorGlobalP8,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal08.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal08.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O DevOps é uma cultura e prática que visa unificar o desenvolvimento de software (Dev) e a operação de software (Ops).",
+    question: valorGlobalP9,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal09.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal09.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O processo de teste de software nunca deve ser planejado e deve ser sempre improvisado para obter melhores resultados.",
+    question: valorGlobalP10,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal10.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal10.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "Em redes de computadores, um switch opera na camada de rede do modelo OSI.",
+    question: valorGlobalP11,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal11.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal11.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O protocolo TCP é orientado à conexão e garante a entrega dos dados na mesma ordem em que foram enviados.",
+    question: valorGlobalP12,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal12.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal12.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O DNS (Domain Name System) é responsável por traduzir endereços IP em nomes de domínio legíveis.",
+    question: valorGlobalP13,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal13.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal13.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "No modelo de rede OSI, a camada de apresentação é responsável por estabelecer, gerenciar e encerrar conexões entre aplicativos.",
+    question: valorGlobalP14,
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: opcaoGlobal14.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal14.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "Um firewall é uma ferramenta que monitora e controla o tráfego de rede com base em regras de segurança pré-determinadas.",
+    question: valorGlobalP15,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal15.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal15.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O protocolo HTTPS é uma versão segura do HTTP, utilizando SSL/TLS para criptografar a comunicação.",
+    question: valorGlobalP16,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal16.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal16.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "Em um banco de dados relacional, a integridade referencial é garantida pelo uso de chaves primárias e chaves estrangeiras.",
+    question: valorGlobalP17,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal17.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal17.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "A normalização de banco de dados é o processo de organizar os dados para reduzir a redundância e melhorar a integridade dos dados.",
+    question: valorGlobalP18,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal18.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal18.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "O comando SQL 'JOIN' é usado para combinar linhas de duas ou mais tabelas com base em uma condição relacionada.",
+    question: valorGlobalP19,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal19.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal19.trim().toLowerCase() === "falso" }
     ]
   },
   {
-    question: "Em um banco de dados, o índice é uma estrutura de dados que melhora a velocidade das operações de consulta em uma tabela.",
+    question: valorGlobalP20,
     answers: [
-      { text: "Verdadeiro", correct: true },
-      { text: "Falso", correct: false }
+      { text: "Verdadeiro", correct: opcaoGlobal20.trim().toLowerCase() === "verdadeiro" },
+      { text: "Falso", correct: opcaoGlobal20.trim().toLowerCase() === "falso" }
     ]
   }
 ];
+

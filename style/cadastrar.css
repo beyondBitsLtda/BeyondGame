@@ -118,6 +118,12 @@ main{
     transition: filter 0.2s;
 }
 
+.btn_cadastrar:disabled {
+    background-color: #555; /* cor mais escura */
+    cursor: not-allowed;
+    filter: brightness(0.8);
+  }
+  
 .btn_cadastrar:not(:disabled):hover{
     filter: brightness(0.8);
 }
