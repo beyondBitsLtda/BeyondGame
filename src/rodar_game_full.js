@@ -460,7 +460,6 @@ function selectAnswer(event) {
       }
       document.body.classList.add("correct");
         totalCorrect += $points;
-        alert(`Você ganhou ${$points} pontos!`);
         const currentPlayer = $order[$currentTurn];
         $scores[currentPlayer] += $points;  
     } else {
