@@ -534,7 +534,7 @@ function finishGame() {
 
     $questionsContainer.innerHTML = 
     `
-        <h3>Parabéns: ${winners} com ${maxScore} pontos! </h3>
+        <h3>Parabéns aos vencedores: ${winners} com a quantidade de ${maxScore} pontos! </h3>
         <span>Obrigado por terem participado! </span>
 
         <button onclick=window.location.reload() class="button"> Jogar novamente </button>
