@@ -50,7 +50,7 @@
       </section>
       
       <section class="logo">  
-        <img src="../img/logo_beyond.jpg" alt="Logo Beyond">
+        <img id="easterEggImg" src="../img/logo_beyond.jpg" alt="Logo Beyond">
       </section>
 
       <section class="copy">
@@ -63,5 +63,20 @@
     </div>
   </main>
   <script src="src\rodar_game.js" async></script>
+  <script>
+    const img = document.getElementById("easterEggImg");
+    let timer;
+
+    img.addEventListener("mouseenter", () => {
+      timer = setTimeout(() => {
+        img.src = "../img/logo_legado.jpg"; // imagem que aparece depois de 5s com o mouse parado
+      }, 8000);
+    });
+
+    img.addEventListener("mouseleave", () => {
+      clearTimeout(timer);
+      img.src = src="../img/logo_beyond.jpg"; // volta pra imagem original
+    });
+  </script>
 </body>
 </html>

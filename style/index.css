@@ -146,3 +146,44 @@ img {
         flex-wrap: wrap;
     }
 }
+
+@keyframes rgbEffect {
+    0%   { background-color: red; }
+    16%  { background-color: orange; }
+    32%  { background-color: yellow; }
+    48%  { background-color: lime; }
+    64%  { background-color: cyan; }
+    80%  { background-color: blue; }
+    100% { background-color: magenta; }
+  }
+
+  @keyframes rgbBorder {
+    0%   { box-shadow: 0 0 10px red; }
+    20%  { box-shadow: 0 0 10px orange; }
+    40%  { box-shadow: 0 0 10px yellow; }
+    60%  { box-shadow: 0 0 10px lime; }
+    80%  { box-shadow: 0 0 10px cyan; }
+    100% { box-shadow: 0 0 10px magenta; }
+  }
+  
+  .logo img {
+    width: 325px;
+    height: 170px;
+    border-radius: 10px;
+    animation: rgbBorder 4s infinite;
+  }
+
+/* Aplica a animação RGB quando o mouse estiver sobre a imagem */
+.imagem:hover img {
+    animation: rgbBorder 3s infinite;
+  }
+  
+  /* Animação RGB personalizada */
+  @keyframes rgbBorder {
+    0%   { box-shadow: 0 0 10px red; }
+    20%  { box-shadow: 0 0 10px orange; }
+    40%  { box-shadow: 0 0 10px yellow; }
+    60%  { box-shadow: 0 0 10px lime; }
+    80%  { box-shadow: 0 0 10px cyan; }
+    100% { box-shadow: 0 0 10px magenta; }
+  }
